@@ -1,0 +1,33 @@
+/* src/styles/ProductCategories.module.css */
+.categories-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.75rem;
+    padding-bottom: 0.5rem;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: rgba(0,0,0,0.2) transparent; /* For Firefox */
+    justify-content: center;
+  }
+  
+  .categories-container::-webkit-scrollbar {
+    height: 6px; /* Thin horizontal scrollbar for WebKit browsers */
+  }
+  
+  .categories-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 3px;
+  }
+  
+  .category-item {
+    flex-shrink: 0;
+    width: 100px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .category-item:hover {
+    transform: scale(1.05);
+  }

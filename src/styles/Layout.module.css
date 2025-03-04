@@ -1,0 +1,78 @@
+/* src/styles/Layout.module.css */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f2d5;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #e62e00;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    margin-bottom: 1rem;
+  }
+  
+  .header-actions {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  
+  .header-action {
+    color: #e62e00;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+  }
+  
+  .header-action:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    background-color: #f5f2d5;
+  }
+  
+  .social-icon {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* z-index: -50; */
+    background-color: white;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.75rem;
+  }
+  
+  .nav-icon {
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  
+  .nav-icon:hover {
+    transform: scale(1.2);
+  }

@@ -1,0 +1,67 @@
+/* src/styles/TopDeals.module.css */
+.deals-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .deal-item {
+    
+    flex-shrink: 0;
+    width: 160px;
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 0.75rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+    
+  }
+  
+  .deal-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .deal-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #ff8533;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+  }
+  
+  .deal-image {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .deal-details {
+    flex-grow: 1;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #6b7280;
+    font-size: 0.75rem;
+  }
+  
+  .discount-price {
+    color: #e62e00;
+    font-weight: bold;
+  }
+  
+  .discount-tag {
+    background-color: #ff8533;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+  }

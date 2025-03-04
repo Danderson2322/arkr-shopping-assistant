@@ -1,0 +1,25 @@
+/* src/styles/CompactLayout.module.css */
+.compact-section {
+    padding: 0.5rem;
+  }
+  
+  .compact-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .compact-container {
+    gap: 0.5rem;
+  }
+  
+  .compact-item {
+    transform: scale(.95);
+  }
+
+  .blocky-title {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #e62e00;
+    text-transform: uppercase;
+    text-align: center;
+}
