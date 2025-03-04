@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/arkr-shopping-assistant/static/css/main.c39678e9.css",
+    "main.js": "/arkr-shopping-assistant/static/js/main.93fe88b4.js",
+    "static/js/453.736352eb.chunk.js": "/arkr-shopping-assistant/static/js/453.736352eb.chunk.js",
+    "index.html": "/arkr-shopping-assistant/index.html",
+    "main.c39678e9.css.map": "/arkr-shopping-assistant/static/css/main.c39678e9.css.map",
+    "main.93fe88b4.js.map": "/arkr-shopping-assistant/static/js/main.93fe88b4.js.map",
+    "453.736352eb.chunk.js.map": "/arkr-shopping-assistant/static/js/453.736352eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c39678e9.css",
+    "static/js/main.93fe88b4.js"
+  ]
+}
