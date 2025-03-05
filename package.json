@@ -1,7 +1,6 @@
 {
   "name": "arkr-shopping-assistant",
   "homepage": "https://danderson2322.github.io/arkr-shopping-assistant/",
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {

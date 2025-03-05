@@ -92,19 +92,26 @@ const HomePage = () => {
       }
   ];
 
+  
+
   return (
     <div className="relative min-h-screen bg-[#F5F2D5] text-[#0d0d0d] pb-16">
     {/* Header */}
     <header className={layoutStyles.header}>
+      {/* 
+       */}
+{/* <div className={layoutStyles.logo}> */}
+  <img src="../images/logo.png" alt="Logo" />
+{/* </div> */}
         <div className={layoutStyles.logo}>ARKR</div>
-        <div className={layoutStyles['header-actions']}>
+        {/* <div className={layoutStyles['header-actions']}>
           <span className={layoutStyles['header-action']}>Search</span>
           <span className={layoutStyles['header-action']}>Cart</span>
-        </div>
+        </div> */}
       </header>
 
 {/* Scrollable Content Container */}
-<div className="overflow-y-auto pb-24">
+<div className ={`${compactStyles['scroll-container']} `}>
     {/* Product Categories */}
     <section className={`${compactStyles['compact-section']} p-4`}>
       <h2 className={`
@@ -127,6 +134,7 @@ const HomePage = () => {
             `}
           >
             <span className="text-3xl mb-2">{category.icon}</span>
+            <br></br>
             <span className="text-sm text-center">{category.name}</span>
           </div>
         ))}
@@ -282,20 +290,20 @@ const HomePage = () => {
       {/* Navigation Bar */}
       <nav className={layoutStyles.navigation}>
         <Home 
-          className={`${layoutStyles['nav-icon']} text-[#e62e00]`} 
-          size={24} 
+          className={`${layoutStyles['nav-icon']} text-[#dddddd]`} 
+          size={30} 
         />
         <Bookmark 
           className={`${layoutStyles['nav-icon']} text-[#ff8533]`} 
-          size={24} 
+          size={30} 
         />
         <MessageCircle 
           className={`${layoutStyles['nav-icon']} text-[#0d0d0d]`} 
-          size={24} 
+          size={30} 
         />
         <Settings 
           className={`${layoutStyles['nav-icon']} text-gray-600`} 
-          size={24} 
+          size={30} 
         />
       </nav>
     </div>
@@ -303,3 +311,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+

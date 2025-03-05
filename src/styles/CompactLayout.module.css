@@ -9,17 +9,25 @@
   }
   
   .compact-container {
-    gap: 0.5rem;
+    gap: 0.2rem;
+    background-color: #faf9ed;
   }
   
   .compact-item {
-    transform: scale(.95);
+    transform: scale(.85);
   }
 
   .blocky-title {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 900;
+    font-family:Tahoma, sans-serif;
     color: #e62e00;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
+    background-color: #faf9f0;
+}
+
+.scroll-container {
+  background-color: #faf9f0;
+
 }

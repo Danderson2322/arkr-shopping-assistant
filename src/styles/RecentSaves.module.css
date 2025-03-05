@@ -2,9 +2,17 @@
 .saves-container {
   display: flex;
   flex-direction: row;
+  overflow-x: auto;
   gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: rgba(0,0,0,0.2) transparent; /* For Firefox */
+  /* border: 1px solid black; */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  border-radius: 0.75rem;
+
+
   }
   
   .saves-container::-webkit-scrollbar {
@@ -25,6 +33,7 @@
     padding: 0.75rem;
     text-align: center;
     transition: transform 0.2s ease;
+    cursor: pointer;
   }
   
   .save-item:hover {
