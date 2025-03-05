@@ -9,8 +9,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const App: React.FC = () => {
   return (
-  // <Router basename="/arkr-shopping-assistant">
-  <Router>
+  <Router basename="/arkr-shopping-assistant">
+  {/* <Router> */}
       <div className="App">
         {/* <Navigation /> */}
         <Routes>
