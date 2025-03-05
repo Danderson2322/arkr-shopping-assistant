@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/arkr-shopping-assistant/static/css/main.e5375956.css",
-    "main.js": "/arkr-shopping-assistant/static/js/main.60142acf.js",
+    "main.css": "/arkr-shopping-assistant/static/css/main.3cf5e2c4.css",
+    "main.js": "/arkr-shopping-assistant/static/js/main.edd30770.js",
     "static/js/453.736352eb.chunk.js": "/arkr-shopping-assistant/static/js/453.736352eb.chunk.js",
+    "static/media/logo.png": "/arkr-shopping-assistant/static/media/logo.07b11eff82de57eeeaef.png",
     "index.html": "/arkr-shopping-assistant/index.html",
-    "main.e5375956.css.map": "/arkr-shopping-assistant/static/css/main.e5375956.css.map",
-    "main.60142acf.js.map": "/arkr-shopping-assistant/static/js/main.60142acf.js.map",
+    "main.3cf5e2c4.css.map": "/arkr-shopping-assistant/static/css/main.3cf5e2c4.css.map",
+    "main.edd30770.js.map": "/arkr-shopping-assistant/static/js/main.edd30770.js.map",
     "453.736352eb.chunk.js.map": "/arkr-shopping-assistant/static/js/453.736352eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5375956.css",
-    "static/js/main.60142acf.js"
+    "static/css/main.3cf5e2c4.css",
+    "static/js/main.edd30770.js"
   ]
 }
