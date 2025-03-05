@@ -1,46 +1,38 @@
 import React, { useState } from 'react';
 import { Home, Bookmark, MessageCircle, Settings, Facebook, Instagram, Twitter } from 'lucide-react';
-import productCategoriesStyles from '../styles/ProductCategories.module.css';
-import recentSavesStyles from '../styles/RecentSaves.module.css';
-import topDealsStyles from '../styles/TopDeals.module.css';
-import popularFriendsStyles from '../styles/PopularFriends.module.css';
 import layoutStyles from '../styles/Layout.module.css';
 import compactStyles from '../styles/CompactLayout.module.css';
 
 
+
 const Navbar = () => {
-    const [activeTab, setActiveTab] = useState<'home' | 'bookmark' | 'messages' | 'settings'>('home');
   
-    const getIconClass = (tabName: string) => {
-      return `${layoutStyles['nav-icon']} ${
-        activeTab === tabName ? 'text-blue-500' : 'text-[#dddddd]'
-      }`;
-    };
-  
-    return (
-      <nav className={layoutStyles.navigation}>
+  return (
+
+<div>
+    {/* Navbar */}
+{/* Navigation Bar */}
+<nav className={layoutStyles.navigation}>
         <Home 
-          className={getIconClass('home')} 
+          className={`${layoutStyles['nav-icon']} text-[#dddddd]`} 
           size={30} 
-          onClick={() => setActiveTab('home')}
         />
         <Bookmark 
-          className={getIconClass('bookmark')} 
+          className={`${layoutStyles['nav-icon']} text-[#ff8533]`} 
           size={30} 
-          onClick={() => setActiveTab('bookmark')}
         />
         <MessageCircle 
-          className={getIconClass('messages')} 
+          className={`${layoutStyles['nav-icon']} text-[#0d0d0d]`} 
           size={30} 
-          onClick={() => setActiveTab('messages')}
         />
         <Settings 
-          className={getIconClass('settings')} 
+          className={`${layoutStyles['nav-icon']} text-gray-600`} 
           size={30} 
-          onClick={() => setActiveTab('settings')}
         />
       </nav>
-    );
-  };
-  
+</div>
+      );
+    };
+
   export default Navbar
+      

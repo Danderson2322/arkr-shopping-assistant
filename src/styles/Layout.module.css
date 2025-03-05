@@ -8,13 +8,22 @@
     padding: 1rem;
   }
   
-  .logo {
+  .logoContainer {
     font-size: 3rem;
     font-weight: 900;
     color: #e62e00;
     text-transform: uppercase;
     letter-spacing: -0.05em;
     margin-bottom: 1rem;
+    display: flex;
+  }
+
+  .logo {
+    width: 4rem; /* Adjust size as needed */
+    height: 4rem;
+    margin-right: 20px; 
+    margin-top : 5px;
+    
   }
   
   .header-actions {

@@ -3,18 +3,15 @@ import { Home, Bookmark, MessageCircle, Settings, Facebook, Instagram, Twitter }
 import layoutStyles from '../styles/Layout.module.css';
 import compactStyles from '../styles/CompactLayout.module.css';
 import productCategoriesStyles from '../styles/ProductCategories.module.css';
-import { productCategories } from '../data/mockData';
+import { productCategories } from '../data/MockData';
 
 
 
 
-const ProductCategories: React.FC () => {
+const ProductCategories = () => {
   
-  
-
   return (
-   
-
+   <div>
     {/* Product Categories */}
     <section className={`${compactStyles['compact-section']} p-4`}>
       <h2 className={`
@@ -43,6 +40,7 @@ const ProductCategories: React.FC () => {
         ))}
       </div>
     </section>
+    </div>
       );
     };
 

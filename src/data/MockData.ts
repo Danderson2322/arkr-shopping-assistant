@@ -33,10 +33,10 @@ export const recentSaves = [
     }, 
     { 
         id: 4, 
-        name: 'Frank`s Mom', 
-        price: 9.99, 
+        name: 'Toothbrush', 
+        price: 19.99, 
         image: '/api/placeholder/150/150',
-        brand: 'Mommy'
+        brand: 'Teeth'
     }, 
 ];
 
@@ -75,8 +75,8 @@ export const popularAmongstFriends = [
     friendsWhoLiked: 35
     }, { 
         id: 3, 
-        name: 'Also Franks Mom', 
-        price: .99, 
+        name: 'Moon Boots', 
+        price: 84.99, 
         image: '/api/placeholder/150/150',
         friendsWhoLiked: 99
     }
