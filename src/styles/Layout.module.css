@@ -1,17 +1,23 @@
 /* src/styles/Layout.module.css */
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #f5f2d5;
-    padding: 1rem;
+    padding: 0rem;
+    margin-bottom: 6rem;
+    z-index: 10;
   }
   
   .logoContainer {
     font-size: 3rem;
     font-weight: 900;
-    color: #e62e00;
+    color: #b23b22;
     text-transform: uppercase;
     letter-spacing: -0.05em;
     margin-bottom: 1rem;
@@ -34,7 +40,9 @@
   }
   
   .header-action {
-    color: #e62e00;
+    color: #b23b22
+
+;
     cursor: pointer;
     font-weight: bold;
     transition: transform 0.2s ease;
@@ -80,6 +88,11 @@
   .nav-icon {
     cursor: pointer;
     transition: transform 0.2s ease, color 0.2s ease;
+    color: black;
+  }
+
+  .nav-icon-selected{
+    color : #b23b22;
   }
   
   .nav-icon:hover {

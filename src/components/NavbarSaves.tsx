@@ -6,10 +6,10 @@ import compactStyles from '../styles/CompactLayout.module.css';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 
-const Navbar = () => {
+const NavbarSaves = () => {
 
 
-  const [activeIcon, setActiveIcon] = useState<string>('home');
+  const [activeIcon, setActiveIcon] = useState<string>('bookmark');
 
 
   const handleIconClick = (icon: string) => {
@@ -77,5 +77,5 @@ const Navbar = () => {
       );
     };
 
-  export default Navbar
+  export default NavbarSaves
       

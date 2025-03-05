@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import HomePage from './components/HomePage';
 import Home from './pages/Home'
+import Saves from './pages/Saves'
 // import Navbar from './components/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         {/* <Navigation /> */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path = '/saved' element={<Saves />} />
           {/* Add more routes as needed */}
           {/* <Route path="/" element={<Navbar />} /> */}
 

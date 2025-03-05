@@ -21,7 +21,7 @@
     font-size: 1.25rem;
     font-weight: 900;
     font-family:Tahoma, sans-serif;
-    color: #e62e00;
+    color: #b23b22    ;
     /* text-transform: uppercase; */
     text-align: center;
     background-color: #faf9ed;
@@ -29,5 +29,6 @@
 
 .scroll-container {
   background-color: #faf9ed;
+  margin-top: 5rem;
 
 }

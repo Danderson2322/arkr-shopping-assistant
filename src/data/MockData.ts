@@ -81,3 +81,91 @@ export const popularAmongstFriends = [
         friendsWhoLiked: 99
     }
 ];
+
+export const allSaves = [
+    { 
+      id: 1, 
+      name: 'Wireless Earbuds', 
+      price: 79.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'TechGear'
+    },
+    { 
+      id: 2, 
+      name: 'Smart Watch', 
+      price: 199.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'FitTech'
+    },
+    { 
+      id: 3, 
+      name: 'Portable Speaker', 
+      price: 129.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'SoundWave'
+    }, 
+    { 
+      id: 4, 
+      name: 'Toothbrush', 
+      price: 19.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'Teeth'
+    },
+    { 
+      id: 5, 
+      name: 'Laptop', 
+      price: 799.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'TechBrand'
+    },
+    { 
+      id: 6, 
+      name: 'Gaming Headset', 
+      price: 89.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'GameZone'
+    },
+    { 
+      id: 7, 
+      name: 'Wireless Mouse', 
+      price: 29.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'ClickMaster'
+    },
+    { 
+      id: 8, 
+      name: 'Fitness Tracker', 
+      price: 59.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'FitTrack'
+    },
+    { 
+      id: 9, 
+      name: 'Bluetooth Headphones', 
+      price: 59.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'SoundBeats'
+    },
+    { 
+      id: 10, 
+      name: 'Smartphone Case', 
+      price: 15.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'CaseMaster'
+    },
+    { 
+      id: 11, 
+      name: 'Smart Bulb', 
+      price: 25.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'BrightHome'
+    },
+    { 
+      id: 12, 
+      name: 'Electric Kettle', 
+      price: 49.99, 
+      image: '/api/placeholder/150/150',
+      brand: 'HomeTech'
+    }
+  ];
+  
